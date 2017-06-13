@@ -16,7 +16,8 @@
     "typings": "typings install",
     "test": "karma start",
     "test:w": "karma start --no-single-run",
-    "postinstall": "npm install && npm run build"
+    "prepublish": "npm install",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
