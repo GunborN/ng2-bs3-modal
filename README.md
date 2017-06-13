@@ -1,3 +1,10 @@
+## How to use plugin:
+
+-In your project's node_modules folder, open a command shell and type "npm install --save https://github.com/adamitchell/ng2-bs3-modal.git".
+-If something messes up and you need to uninstall this package and reinstall, type: "npm uninstall ng2-bs3-modal --save".
+-Take the modalJS.js and jquery.js files that are in this project and place them in the same folder your styles.css file is in.
+-In your project's .angular-cli.json file, add the following to the "scripts" section: ex: "scripts": [ "jquery.js", "modalJS.js" ]
+
 # ng2-bs3-modal [![npm version](https://badge.fury.io/js/ng2-bs3-modal.svg)](http://badge.fury.io/js/ng2-bs3-modal) [![npm downloads](https://img.shields.io/npm/dm/ng2-bs3-modal.svg)](https://npmjs.org/ng2-bs3-modal) [![Build Status](https://travis-ci.org/dougludlow/ng2-bs3-modal.svg?branch=master)](https://travis-ci.org/dougludlow/ng2-bs3-modal)
 Angular2 Bootstrap3 Modal Component
 
