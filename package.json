@@ -13,7 +13,6 @@
     "uglify": "uglifyjs ./bundles/ng2-bs3-modal.js --output ./bundles/ng2-bs3-modal.min.js",
     "bundle": "npm run tsc:single && npm run uglify",
     "build": "npm run clean && npm run typings && npm run lint && npm run tsc && npm run bundle",
-    "prepublish": "npm run build",
     "typings": "typings install",
     "test": "karma start",
     "test:w": "karma start --no-single-run",
