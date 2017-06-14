@@ -15,8 +15,7 @@
     "build": "npm run clean && npm run typings && npm run lint && npm run tsc && npm run bundle",
     "typings": "typings install",
     "test": "karma start",
-    "test:w": "karma start --no-single-run",
-    "postinstall": "npm run build"
+    "test:w": "karma start --no-single-run"
   },
   "repository": {
     "type": "git",
