@@ -6,6 +6,7 @@ directives/*
 ng2-bs3-modal.ngsummary.json
 package-lock.json
 *.ngsummary.json
+*.log.*
 
 # User-specific files
 *.suo
