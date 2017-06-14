@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dougludlow/ng2-bs3-modal.git"
+    "url": "git+ssh://git@github.com/adamitchell/ng2-bs3-modal.git"
   },
   "keywords": [
     "angular2",
