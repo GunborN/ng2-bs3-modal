@@ -16,7 +16,7 @@
     "typings": "typings install",
     "test": "karma start",
     "test:w": "karma start --no-single-run",
-    "prepack": "npm install",
+    "postpack": "npm install",
     "postinstall": "npm run build"
   },
   "repository": {
